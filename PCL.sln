@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MakeDef", "MakeDef\MakeDef.vcproj", "{216C7842-51D9-4082-85BF-E06C869734FE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PCL", "DLL\PCL.vcproj", "{AB1E10D7-5384-4609-8971-EC574847B856}"
+	ProjectSection(ProjectDependencies) = postProject
+		{216C7842-51D9-4082-85BF-E06C869734FE} = {216C7842-51D9-4082-85BF-E06C869734FE}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Static", "Static\Static.vcproj", "{DA244094-79DF-4CD3-8A84-35E91ABA081D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{216C7842-51D9-4082-85BF-E06C869734FE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{216C7842-51D9-4082-85BF-E06C869734FE}.Debug|Win32.Build.0 = Debug|Win32
+		{216C7842-51D9-4082-85BF-E06C869734FE}.Release|Win32.ActiveCfg = Release|Win32
+		{216C7842-51D9-4082-85BF-E06C869734FE}.Release|Win32.Build.0 = Release|Win32
+		{AB1E10D7-5384-4609-8971-EC574847B856}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AB1E10D7-5384-4609-8971-EC574847B856}.Debug|Win32.Build.0 = Debug|Win32
+		{AB1E10D7-5384-4609-8971-EC574847B856}.Release|Win32.ActiveCfg = Release|Win32
+		{AB1E10D7-5384-4609-8971-EC574847B856}.Release|Win32.Build.0 = Release|Win32
+		{DA244094-79DF-4CD3-8A84-35E91ABA081D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DA244094-79DF-4CD3-8A84-35E91ABA081D}.Debug|Win32.Build.0 = Debug|Win32
+		{DA244094-79DF-4CD3-8A84-35E91ABA081D}.Release|Win32.ActiveCfg = Release|Win32
+		{DA244094-79DF-4CD3-8A84-35E91ABA081D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

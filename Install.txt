@@ -1,0 +1,41 @@
+Installation instructions:
+
+1. Choose root directory where PCL build tree will reside (eg. C:\PCL_BUILD).
+
+2. Unzip the build container PCL.Vx.y.Win32.zip into this directory.
+
+3. Choose target directory where PCL itself will reside 
+	- may not be the same as build directory (eg. C:\PCL).
+
+4. Run tuner.bat from the build directory giving it as the parameter target directory
+	C:\PCL_BUILD>tuner C:\PCL
+
+5. Open PCL.dsw with Microsoft Visual C/C++ 6.x IDE (!!! 5.x and 7.x not supported).
+
+6. Click Tools->Options. Select Directory tab. 
+	Add C:\PCL\Include to the end of "Include files" list;
+	add C:\PCL\Bin to the end of "Executable files" list;
+	add C:\PCL\Lib to the end of "Library files" list.
+   (surely, C:\PCL here is the placeholder for your chosen target directory).
+
+7. Click Build->Batch Build... and press "Rebuild All" button. 
+
+	Everything is gonna be allrigt, yeh!!! 
+
+   If something go wrong carefully track the previous steps.
+   If fail againg feel free to trouble pulse.cc@mail.ru with your problem.
+
+8. Close PCL.dsw and open AppWizards\AppWizards.dsw. Click Build->Batch Build... and then
+   select Release versions only (it SHOULD be so initially but who knows... :-).
+   Then press "Build" button.
+
+9. Close AppWizards.dsw and click File->New. Select Projects tab. You should see three new
+   choices: PCL Console Application, PCL DCOM Inproc Server and PCL Service Application.
+   Create test project and assure that PCL installed well by building and runninig it.
+
+10. If you are going to use PCL.dll, you'd better add C:\PCL\Bin into ypur path environment variable.
+
+That's all for now. If you like the idea join the team.
+
+	Pulse Computer Consulting
+	pulse.cc@mail.ru

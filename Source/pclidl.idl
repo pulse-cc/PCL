@@ -1,0 +1,5 @@
+#define PCL_IDLPASS
+#define PCL_IDL_EXPOSE_TYPES
+#define PCL_HIDE_STRUCTURES
+#include "PCL_IDL.h"
+

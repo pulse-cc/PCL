@@ -1,0 +1,3 @@
+#define PCL_IDLPASS
+#define PCL_IDL_EXPOSE_TYPES
+#include "PCL_IDL.h"

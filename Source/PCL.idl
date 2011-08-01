@@ -1,0 +1,30 @@
+#define PCL_IDL_EXPOSE_TYPES
+#include "PCL_IDL.h"
+
+[
+	object,
+	uuid(000A0001-E103-44EE-804A-B9A7BA45A404),
+	helpstring("Virtual Object Interface"),
+	pointer_default(unique)
+]
+interface V_Object : IUnknown {
+	IDL_METHOD(Verify)();
+};
+
+[
+	uuid(ADE00200-E103-44EE-804A-B9A7BA45A404),
+	version(2.0),
+	helpstring("Portable Class Type Library")
+]
+library PCL_TypeLib {
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	[
+		uuid(ADE00000-E103-44EE-804A-B9A7BA45A404),
+		helpstring("Sample Class")
+	]
+	coclass PCL_Holder {
+		[default] interface IPCL_Container;
+	};
+};
