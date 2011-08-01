@@ -10,8 +10,7 @@ Installation instructions:
 4. Run tuner.bat from the build directory giving it as the parameter target directory
 	C:\PCL_BUILD>tuner C:\PCL
 
-5. Open PCL.dsw with Microsoft Visual C/C++ 6.x IDE (!!! 5.x and 7.x not supported).
-
+5. Open PCL.sln with Microsoft Visual Studio 2005.
 6. Click Tools->Options. Select Directory tab. 
 	Add C:\PCL\Include to the end of "Include files" list;
 	add C:\PCL\Bin to the end of "Executable files" list;
