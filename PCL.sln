@@ -1,14 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MakeDef", "MakeDef\MakeDef.vcproj", "{216C7842-51D9-4082-85BF-E06C869734FE}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MakeDef", "MakeDef\MakeDef.vcxproj", "{216C7842-51D9-4082-85BF-E06C869734FE}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PCL", "DLL\PCL.vcproj", "{AB1E10D7-5384-4609-8971-EC574847B856}"
-	ProjectSection(ProjectDependencies) = postProject
-		{216C7842-51D9-4082-85BF-E06C869734FE} = {216C7842-51D9-4082-85BF-E06C869734FE}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PCL", "DLL\PCL.vcxproj", "{AB1E10D7-5384-4609-8971-EC574847B856}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Static", "Static\Static.vcproj", "{DA244094-79DF-4CD3-8A84-35E91ABA081D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Static", "Static\Static.vcxproj", "{DA244094-79DF-4CD3-8A84-35E91ABA081D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
