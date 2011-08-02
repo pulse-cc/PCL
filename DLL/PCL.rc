@@ -1,25 +1,23 @@
-//Microsoft Developer Studio generated resource script.
+// Описание ресурсов, созданное в Microsoft Visual C++.
 //
 #include "resource.h"
 
 #define APSTUDIO_READONLY_SYMBOLS
-/////////////////////////////////////////////////////////////////////////////
-//
-// Generated from the TEXTINCLUDE 2 resource.
-//
-#include "afxres.h"
 
 /////////////////////////////////////////////////////////////////////////////
 #undef APSTUDIO_READONLY_SYMBOLS
 
 /////////////////////////////////////////////////////////////////////////////
-// Russian resources
+// ресурсы Русский
 
-#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
-#ifdef _WIN32
-LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
-#pragma code_page(1251)
-#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Значок
+//
+// Значок, размещенный первым, или значок с наименьшим значением идентификатора становится значком приложения
+LANGUAGE 25, 1
+IDI_PCL_GENERAL         ICON    DISCARDABLE     "PCL.ico"
 
 #ifdef APSTUDIO_INVOKED
 /////////////////////////////////////////////////////////////////////////////
@@ -27,35 +25,25 @@ LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
 // TEXTINCLUDE
 //
 
-1 TEXTINCLUDE DISCARDABLE 
+1 TEXTINCLUDE  
 BEGIN
     "resource.h\0"
+    "\0"
 END
 
-2 TEXTINCLUDE DISCARDABLE 
+2 TEXTINCLUDE  
 BEGIN
     "#include ""afxres.h""\r\n"
     "\0"
 END
 
-3 TEXTINCLUDE DISCARDABLE 
+3 TEXTINCLUDE  
 BEGIN
-    "\r\n"
     "\0"
 END
 
 #endif    // APSTUDIO_INVOKED
 
-
-/////////////////////////////////////////////////////////////////////////////
-//
-// Icon
-//
-
-// Icon with lowest ID value placed first to ensure application icon
-// remains consistent on all systems.
-IDI_PCL_GENERAL         ICON    DISCARDABLE     "PCL.ico"
-#endif    // Russian resources
 /////////////////////////////////////////////////////////////////////////////
 
 
@@ -63,10 +51,10 @@ IDI_PCL_GENERAL         ICON    DISCARDABLE     "PCL.ico"
 #ifndef APSTUDIO_INVOKED
 /////////////////////////////////////////////////////////////////////////////
 //
-// Generated from the TEXTINCLUDE 3 resource.
+// Создано из ресурса TEXTINCLUDE 3.
 //
 
 
 /////////////////////////////////////////////////////////////////////////////
-#endif    // not APSTUDIO_INVOKED
+#endif    // не APSTUDIO_INVOKED
 
