@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Virtual">
+      <UniqueIdentifier>{d6f4ab10-5c79-4e93-91f0-2b5872600169}</UniqueIdentifier>
+      <Extensions>hxx</Extensions>
+    </Filter>
+    <Filter Include="Generic">
+      <UniqueIdentifier>{ad1a6403-9d7a-4317-a7a1-ad87af1e8685}</UniqueIdentifier>
+      <Extensions>.h;.hpp;.hxx;.inl</Extensions>
+    </Filter>
+    <Filter Include="Library">
+      <UniqueIdentifier>{762590e7-5c96-4211-b73f-53d486ca34be}</UniqueIdentifier>
+      <Extensions>.hxx</Extensions>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{2e84eef5-b0bb-4e42-86e3-b75ef14862f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Attributes">
+      <UniqueIdentifier>{03b5e6f1-736b-48ec-9e67-5bfdc18a7b16}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Virtual\PCL_VBrowser.hxx">
+      <Filter>Virtual</Filter>
+    </ClInclude>
+    <ClInclude Include="Virtual\PCL_VContainer.hxx">
+      <Filter>Virtual</Filter>
+    </ClInclude>
+    <ClInclude Include="Virtual\PCL_VCSect.hxx">
+      <Filter>Virtual</Filter>
+    </ClInclude>
+    <ClInclude Include="Virtual\PCL_VEvent.hxx">
+      <Filter>Virtual</Filter>
+    </ClInclude>
+    <ClInclude Include="Virtual\PCL_VException.hxx">
+      <Filter>Virtual</Filter>
+    </ClInclude>
+    <ClInclude Include="Virtual\PCL_VItem.hxx">
+      <Filter>Virtual</Filter>
+    </ClInclude>
+    <ClInclude Include="Virtual\PCL_VIterator.hxx">
+      <Filter>Virtual</Filter>
+    </ClInclude>
+    <ClInclude Include="Virtual\PCL_VList.hxx">
+      <Filter>Virtual</Filter>
+    </ClInclude>
+    <ClInclude Include="Virtual\PCL_VMemAdm.hxx">
+      <Filter>Virtual</Filter>
+    </ClInclude>
+    <ClInclude Include="Virtual\PCL_VMemory.hxx">
+      <Filter>Virtual</Filter>
+    </ClInclude>
+    <ClInclude Include="Virtual\PCL_VMutex.hxx">
+      <Filter>Virtual</Filter>
+    </ClInclude>
+    <ClInclude Include="Virtual\PCL_VNameSpace.hxx">
+      <Filter>Virtual</Filter>
+    </ClInclude>
+    <ClInclude Include="Virtual\PCL_VNavigator.hxx">
+      <Filter>Virtual</Filter>
+    </ClInclude>
+    <ClInclude Include="Virtual\PCL_VRoot.hxx">
+      <Filter>Virtual</Filter>
+    </ClInclude>
+    <ClInclude Include="Virtual\PCL_VSet.hxx">
+      <Filter>Virtual</Filter>
+    </ClInclude>
+    <ClInclude Include="Virtual\PCL_VString.hxx">
+      <Filter>Virtual</Filter>
+    </ClInclude>
+    <ClInclude Include="Virtual\PCL_VTree.hxx">
+      <Filter>Virtual</Filter>
+    </ClInclude>
+    <ClInclude Include="Generic\PCL_GIterator.hxx">
+      <Filter>Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="Generic\PCL_GList.hxx">
+      <Filter>Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="Generic\PCL_GMemAdm.hxx">
+      <Filter>Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="Generic\PCL_GNavigator.hxx">
+      <Filter>Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="Generic\PCL_GTree.hxx">
+      <Filter>Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\PCL_Collection.hxx">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\PCL_Exception.hxx">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\PCL_Iterator.hxx">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\PCL_List.hxx">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\PCL_Navigator.hxx">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\PCL_Service.hxx">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\PCL_Set.hxx">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\PCL_String.hxx">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\PCL_Vector.hxx">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\PCL_License.h">
+      <Filter>Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\PCL_Naming.h">
+      <Filter>Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="PCL_Internal.h" />
+    <ClInclude Include="..\Include\PCL_Library.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Bin\generate.bat">
+      <Filter>Tools</Filter>
+    </None>
+    <None Include="Makefile">
+      <Filter>Tools</Filter>
+    </None>
+    <None Include="..\Bin\translate.bat">
+      <Filter>Tools</Filter>
+    </None>
+    <None Include="..\Bin\writehdr.bat">
+      <Filter>Tools</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PCL_DList.cpp" />
+    <ClCompile Include="PCL_DRoot.cpp" />
+    <ClCompile Include="PCL_DServ.cpp" />
+    <ClCompile Include="PCL_DSet.cpp" />
+    <ClCompile Include="PCL_DString.cpp" />
+    <ClCompile Include="PCL_DTree.cpp" />
+  </ItemGroup>
+</Project>

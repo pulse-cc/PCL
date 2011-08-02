@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{216C7842-51D9-4082-85BF-E06C869734FE}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\</IntDir>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">nmake /nologo /E /f "Makefile"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">nmake /nologo /E /f "Makefile" /a</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\Include\PCL_Library.h</NMakeOutput>
+    <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\</IntDir>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">nmake /nologo /E /f "Makefile"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">nmake /nologo /E /f "Makefile" /a</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\Include\PCL_Library.h</NMakeOutput>
+    <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Virtual\PCL_VBrowser.hxx" />
+    <ClInclude Include="Virtual\PCL_VContainer.hxx" />
+    <ClInclude Include="Virtual\PCL_VCSect.hxx" />
+    <ClInclude Include="Virtual\PCL_VEvent.hxx" />
+    <ClInclude Include="Virtual\PCL_VException.hxx" />
+    <ClInclude Include="Virtual\PCL_VItem.hxx" />
+    <ClInclude Include="Virtual\PCL_VIterator.hxx" />
+    <ClInclude Include="Virtual\PCL_VList.hxx" />
+    <ClInclude Include="Virtual\PCL_VMemAdm.hxx" />
+    <ClInclude Include="Virtual\PCL_VMemory.hxx" />
+    <ClInclude Include="Virtual\PCL_VMutex.hxx" />
+    <ClInclude Include="Virtual\PCL_VNameSpace.hxx" />
+    <ClInclude Include="Virtual\PCL_VNavigator.hxx" />
+    <ClInclude Include="Virtual\PCL_VRoot.hxx" />
+    <ClInclude Include="Virtual\PCL_VSet.hxx" />
+    <ClInclude Include="Virtual\PCL_VString.hxx" />
+    <ClInclude Include="Virtual\PCL_VTree.hxx" />
+    <ClInclude Include="Generic\PCL_GIterator.hxx" />
+    <ClInclude Include="Generic\PCL_GList.hxx" />
+    <ClInclude Include="Generic\PCL_GMemAdm.hxx" />
+    <ClInclude Include="Generic\PCL_GNavigator.hxx" />
+    <ClInclude Include="Generic\PCL_GTree.hxx" />
+    <ClInclude Include="Library\PCL_Collection.hxx" />
+    <ClInclude Include="Library\PCL_Exception.hxx" />
+    <ClInclude Include="Library\PCL_Iterator.hxx" />
+    <ClInclude Include="Library\PCL_List.hxx" />
+    <ClInclude Include="Library\PCL_Navigator.hxx" />
+    <ClInclude Include="Library\PCL_Service.hxx" />
+    <ClInclude Include="Library\PCL_Set.hxx" />
+    <ClInclude Include="Library\PCL_String.hxx" />
+    <ClInclude Include="Library\PCL_Vector.hxx" />
+    <ClInclude Include="..\Include\PCL_License.h" />
+    <ClInclude Include="..\Include\PCL_Naming.h" />
+    <ClInclude Include="PCL_Internal.h" />
+    <ClInclude Include="..\Include\PCL_Library.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Bin\generate.bat" />
+    <None Include="Makefile" />
+    <None Include="..\Bin\translate.bat" />
+    <None Include="..\Bin\writehdr.bat" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PCL_DList.cpp" />
+    <ClCompile Include="PCL_DRoot.cpp" />
+    <ClCompile Include="PCL_DServ.cpp" />
+    <ClCompile Include="PCL_DSet.cpp" />
+    <ClCompile Include="PCL_DString.cpp" />
+    <ClCompile Include="PCL_DTree.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
