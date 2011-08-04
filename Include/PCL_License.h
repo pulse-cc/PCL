@@ -4,12 +4,12 @@
 //*! of applications portable between different environments,
 //*! first of all between MS Windows and GNU Linux.
 //*!
-//*! CopyFree Pulse Computer Consulting, 2001 - 2004
+//*! CopyFree Pulse Computer Consulting, 2001 - 2011
 //*!
 //*! CopyFree License Agreement:
-//*!	1.You may do with this code whatever you like.
-//*!	2.In no case Pulse Computer Consulting is responsible for your results.
+//*!	1.You may do with this code WHATEVER YOU LIKE.
+//*!	2.In NO CASE Pulse Computer Consulting is responsible for your results.
 //*!
-//*! E-mail: pulse.cc@mail.ru
+//*! E-mail: pulse.cc@mail.ru, pulse.cc@gmail.com
 //*!===========================================================================!
 ///!

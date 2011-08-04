@@ -33,6 +33,9 @@ PCL_API void LSetDefaultMemAdm(ZMemAdmType Type = ZMemStd);
 PCL_API void LSetCustomMemAdm(VMemAdm * pMemAdm);
 PCL_API pvoid LGetModuleHandle(void);
 PCL_API pvoid LGetPCLHandle(void);
+PCL_API void LSleep(uint MSecs);
+PCL_API double LRandomFromTo(double From, double To);
+PCL_API pvoid LGetPCLHandle(void);
 
 PCL_API sint LParseInt(cstr Str, bool NegAllowed = true);
 PCL_API double LParseDbl(cstr Str);

@@ -55,6 +55,7 @@ PCL_API LString &LVersionString = *_LGetVersionString();
 static LDescr *s_pItem = NULL;
 
 PCL_API void LInitialize(void) {
+	srand(::GetTickCount());
 	::CoInitializeEx(NULL, COINIT_MULTITHREADED);
 //	::CoInitializeEx(NULL, COINIT_APARTMENTTHREADED);
 	if (!s_hModule) {
@@ -122,6 +123,20 @@ PCL_API pvoid LGetPCLHandle(void) {
 PCL_API pvoid LGetModuleHandle(void) {
 	if (!s_hModule) LInitialize();
 	return (pvoid)s_hModule;
+}
+
+PCL_API void LSleep(uint MSecs) {
+	::MsgWaitForMultipleObjectsEx(
+		0, 0, MSecs, QS_ALLEVENTS,
+		MWMO_ALERTABLE | MWMO_INPUTAVAILABLE
+	);
+}
+
+PCL_API double LRandomFromTo(double From, double To) {
+	const double ONENTH = 1./256.; 
+	uint rNum = (rand() & 0xFF0) >> 4;
+	double step = (To - From) * ONENTH;
+	return From + rNum * step;
 }
 
 static cstr s_decimal = "0123456789";
